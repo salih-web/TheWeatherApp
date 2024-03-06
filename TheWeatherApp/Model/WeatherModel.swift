@@ -1,9 +1,8 @@
-//
+
 //  WeatherModel.swift
 //  TheWeatherApp
 //
-//  Created by Muhammed Salih Bulut on 7.03.2024.
-//
+//  Created by Muhammed Salih Bulut on 7.03.
 
 import UIKit
 
@@ -20,7 +19,7 @@ struct WeatherModel {
     var conditinName: String{
         
         switch conditionId {
-        case 200...232:
+        case 200...231:
             return "cloud.bolt"
         case 300...321:
             return "cloud.drizzle"
