@@ -17,7 +17,6 @@ struct WeatherModel {
         return String(format: "%.1f", temperature)
     }
     var conditinName: String{
-        
         switch conditionId {
         case 200...232:
             return "cloud.bolt"
@@ -30,7 +29,7 @@ struct WeatherModel {
         case 701...781:
             return "cloud.fog"
         case 800:
-            return "cloud.max"
+            return "sun.max"
         case 801...804:
             return "cloud.bolt"
         default:
